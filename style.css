@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Telenor';
+    src: url('Telenor-Light.woff2') format('woff2'),
+        url('Telenor-Light.woff') format('woff'),
+        url('Telenor-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Telenor';
+    src: url('Telenor-Bold.woff2') format('woff2'),
+        url('Telenor-Bold.woff') format('woff'),
+        url('Telenor-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+	font-family: 'Telenor';
+}
+a.btn-primary{
+	font-size: 16px;
+    line-height: 28px;
+    padding: 5px 39px;
+    margin-top: 20px;
+}
+.ref{
+    cursor: pointer;
+}
+.ref:hover{
+    border: 5px solid #ffffff;
+}
+.ref.current{
+    border: 5px solid #ffffff;
+}
+.blur{
+    opacity: 0.5;
+}
